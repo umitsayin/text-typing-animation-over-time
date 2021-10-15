@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing text with time is animation</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 30%;
+            max-width: 80%;
+            height: 20px;
+            background-color: black;
+            padding: 3rem;
+            margin: 1rem;
+        }
+        .textArea{
+            display: inline-block;
+            padding: 1rem 1rem;
+            background-color: white;
+            opacity: .8;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="textArea">
+            <span id="text"></span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
